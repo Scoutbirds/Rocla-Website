@@ -1,7 +1,7 @@
 .picture{
     display: flex;
     height:750px;
-    background-image: url("kike-veg-unsplash.jpg");
+    background-image: url("./Pictures/kike-veg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -85,7 +85,7 @@
     margin-left: 0%;
     float: left;
     line-height: 35px;
-    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -93,7 +93,7 @@
     justify-content: center;
     width: 40%;
     margin-left: 5%;
-    background-image: url("sammy-williams.jpg");
+    background-image: url("./Pictures/sammy-williams.jpg");
     height: 250px;
     background-size: cover;
     border-radius: 5px;
@@ -102,7 +102,7 @@
 .aboutButton{
     display: inline-block;
     border-radius: 20px;
-    background-color: #303b7c;
+    background-color: #191d33;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -168,10 +168,10 @@
 .procedures{
     margin-top: 10px;
     display: flex;
-    height: 950px;
+    height: 1000px;
     align-items: center;
     justify-content: center;
-    background-color: #303b7c;
+    background-color: #f1f4fa;
     position: relative;
 }
 
@@ -209,23 +209,22 @@
     background-color: #ffffff;
     padding: 5px 10px;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 2px rgba(77, 76, 76, 0.342);
+    /* box-shadow: 0px 5px 10px 2px rgba(77, 76, 76, 0.342); */
     transition: 0.5s;
     
 }
 
 .procedureContainer:hover{
-    background-color: #cccbf8;
+    background-color: #fdf9ef;
     width: 40%;
     padding: 10px 15px;
     box-shadow: 0px 10px 20px 2px rgba(77, 76, 76, 0.342);
-
 }
 
 .procedureImg{
-    background-image: url("mika-baumeister-unsplash.jpg");
+    background-image: url("./Pictures/mika-baumeister-unsplash.jpg");
     background-position: center;
-    height:320px;
+    height:450px;
     background-size: cover;
     border-radius: 10px;
     color: #f0f0f0;
@@ -241,14 +240,14 @@
 }
 
 .skinTight{
-    background-image: url("jennifer-burk-unsplash.jpg");
+    background-image: url("./Pictures/jennifer-burk-unsplash.jpg");
 }
 
 .procedure{
     margin: 10px 15px;
     margin-top: 15px;
     font-size: 16px;
-    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 20px;
     height: 100px;
     word-spacing: 5px;
@@ -258,18 +257,18 @@
 .procedureButton{
     display: inline-block;
     border-radius: 10px;
-    background-color: #303b7c;
+    background-color: #191d33;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     padding: 10px;
-    width: 80%;
-    margin: 10px 10%;
+    width: 100%;
     transition: all 0.5s;
     cursor: pointer;
     margin-top: 25px;
     font-family: 'Arvo', serif;
+    margin-bottom: 20px;
 }
 
 
@@ -297,14 +296,3 @@
     opacity: 1;
     right: 0;
   }
-
-
-.surgeon{
-    display: flex;
-    height: 950px;
-    align-items: center;
-    justify-content: center;
-    background-color: #080b1a;
-    position: relative;
-
-}

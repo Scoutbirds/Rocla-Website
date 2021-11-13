@@ -45,6 +45,11 @@
     font-family: 'Arvo', serif;
 }
 
+
+.buttons :hover{
+    color: rgb(247, 201, 133);
+}
+
 .contact{
     width: 15%;
     margin: 0% 5%;
@@ -57,4 +62,13 @@
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Arvo', serif;
+    transition: 0.5s;
 }
+
+.contact:hover{
+    background-color: rgb(247, 201, 133);
+    margin: 0% 4%;
+    width: 17%;
+
+}
+

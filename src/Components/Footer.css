@@ -1,0 +1,63 @@
+.footer{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.footercontainer{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.roclabox{
+    width:43%;
+    margin: 0px 1%
+}
+
+.roclaTitle{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.roclaInfo{
+    font-size: 15px;
+    font-family: 'Arvo', serif;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+
+.box{
+    width: 23%;
+    margin: 0px 1%;
+    justify-content: center;
+}
+
+.title{
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+
+}
+
+.footerbutton{
+    display: block;
+    font-size: 15px;
+    font-family: 'Arvo', serif;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+.footerbutton :hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline rgb(0, 0, 0);
+}

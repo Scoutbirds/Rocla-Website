@@ -4,6 +4,8 @@ import Nav from './Components/Nav'
 import About from './Components/About';
 import Procedures from './Components/Procedures';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
           <Route path="/procedures" exact element={<Procedures/>}/>
           <Route path="/contact" exact element={<Contact/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

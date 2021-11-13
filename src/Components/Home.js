@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './home.css'
 import {Link} from 'react-router-dom';
-import './mika-baumeister-unsplash.jpg'
+import './Pictures/mika-baumeister-unsplash.jpg'
 
 
 export default function Home() {
@@ -69,10 +69,6 @@ export default function Home() {
                             <div className = "procedureImg">
                                 Injectables
                             </div>
-                            <div className = "procedure">
-                                Plump, and smooth your facial skin with high quality injectables like Botox, 
-                                Dysport, Restylane, Juveaderm and Sculptra. These can be used separate or in combination for best results!
-                            </div>
                             <Link to="/procedures">
                                 <button onClick = {gotToContact} className = "procedureButton"><span>Learn More</span></button>
                             </Link>
@@ -80,10 +76,6 @@ export default function Home() {
                         <div className = "procedureContainer">
                             <div className = "procedureImg skinTight">
                                 Skin Tightening
-                            </div>
-                            <div className = "procedure">
-                                Tighten up your neck, chin, inner thighs, brow etc. 
-                                Our technology, Profound, Morpheus8 and our mighty Accutite!
                             </div>
                             <Link to="/procedures">
                                 <button onClick = {gotToContact} className = "procedureButton"><span>Learn More</span></button>
@@ -93,10 +85,7 @@ export default function Home() {
                             <div className = "procedureImg">
                                 PDO Threads
                             </div>
-                            <div className = "procedure">
-                                Contour, build and lift! PDO threads are a great way to build collagen, 
-                                lift and contour your face without surgery and minimal downtime!
-                            </div>
+
                             <Link to="/procedures">
                                 <button onClick = {gotToContact} className = "procedureButton"><span>Learn More</span></button>
                             </Link>
@@ -104,7 +93,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className = "surgeon"></div>
         </div>
     )
 }

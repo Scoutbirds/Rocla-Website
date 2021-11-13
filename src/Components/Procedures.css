@@ -1,0 +1,39 @@
+.procedurestab{
+    height: 1500px;
+    margin-top: 70px;
+}
+
+.procedurestabcontainer{
+    width: 30%;
+    margin: 0px 20%;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.procedurestabType{
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.procedurestabtitle{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.procedurestabinfo{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+
+
