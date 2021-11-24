@@ -1,0 +1,146 @@
+.contactPage{
+    background-color: rgb(255, 253, 247);
+    height: fit-content;
+}
+
+
+.contactBody{
+    display: flex;
+    margin-top: 70px;
+    min-height: 900px;
+    justify-content: center;
+    width: 100%;
+    /* background-image: url("./Pictures/anastasia-taioglou-unsplash.jpg"); */
+    background-size: cover;
+}
+
+
+
+.contactInside{
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.visit{
+    display: flex;
+
+    font-size: 60px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addressContainer{
+    background-color: rgba(247, 201, 133, 0.692);
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arvo', sans-serif;
+}
+
+.icon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+.address{
+    display: block;
+    width: 86%;
+    font-family: 'Arvo', sans-serif;
+    padding-left: 2%;
+
+}
+
+.addressTitle{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 1px;
+    letter-spacing: 2px;
+
+}
+
+.addressInfo{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.messageBlock{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messageContainer{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.726);;
+    height: 600px;
+    width: 53%;
+    padding: 50px 100px;
+    min-width: 450px;
+    box-shadow: 0px 5px 20px 2px rgba(170, 170, 170, 0.603);
+}
+
+.messageContact{
+    font-family: 'Arvo', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.messageTitle{
+    font-family: 'Arvo', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.messageContainer input{
+    display: block;
+    width: 98%;
+    height: 30px;
+    font-size: 20px;
+    border: black line 1px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Arvo', sans-serif;
+
+}
+
+#message{
+    display: block;
+    width: 98%;
+    height: 200px;
+    font-size: 20px;
+    border: black line 1px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Arvo', sans-serif;
+}
+
