@@ -57,18 +57,36 @@ export default function Home() {
                 <div className='grid_Container'>
                     <div className='grid_item'>
                         <div className='thecard'>
+                            <div className='thefront'>Injectables</div>
+                            <div className='theback'>
+                                <Link to="/procedures/1">
+                                    <button  className = "procedureButton"><span>Learn More</span></button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='grid_item'>
+                        <div className='thecard'>
+                            <div className='thefront'>PDO</div>
+                            <div className='theback'>
+                                <Link to="/procedures/1">
+                                        <button  className = "procedureButton"><span>Learn More</span></button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='grid_item'>
+                        <div className='thecard'>
+                            <div className='thefront'>Tony</div>
+                            <div className='theback'>Fernandez</div>
+                        </div>
+                    </div>
+                    <div className='grid_item'>
+                        <div className='thecard'>
                             <div className='thefront'>hi</div>
                             <div className='theback'>hello</div>
                         </div>
                     </div>
-                    <div className='grid_item'>PDO</div>
-                    <div className='grid_item'>3</div>
-                    <div className='grid_item'>4</div>
-                    <div className='grid_item'>5</div>
-                    <div className='grid_item'>6</div>
-                    <div className='grid_item'>7</div>
-                    <div className='grid_item'>8</div>
-                    <div className='grid_item'>9</div>
 
                 </div>
             </div>
