@@ -15,6 +15,7 @@
     display: flex;
     width: 50%;
     float: left;
+    min-width: 100px;
     
 }
 
@@ -30,8 +31,11 @@
 }
 
 .navButtons{
-    width: 50%;
+    width: 45%;
     display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    min-width: 300px;
 }
 
 .buttons{
@@ -44,6 +48,7 @@
     padding: 10px 2%;
     font-size: 20px;
     font-family: 'Arvo', serif;
+    min-width: 100px;
 }
 
 
@@ -63,6 +68,8 @@
     font-size: 20px;
     font-family: 'Arvo', serif;
     transition: 0.5s;
+    min-width: 100px;
+
 }
 
 .contact:hover{

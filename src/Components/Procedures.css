@@ -3,20 +3,50 @@
     margin-top: 70px;
     display: inline-block;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
 
+}
+
+
+.procedurenav{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+.procedurenav button{
+    border: none;
+    padding: 10px 50px;
+    font-family: 'Arvo', serif;
+    font-size: calc(12px + .8vw);
+    background-color: rgb(10, 6, 29);
+    color: white;
+    float: left;
+
+
+}
+
+.procedurenav button :focus{
+    transition: 0.1s;
+    background-color: rgb(31, 27, 255);
+}
+
+.procedurenav button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(247, 201, 133);
 }
 
 .procedurestabcontainer{
     width: 60%;
-    margin: 0px 20%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0px 19%;
     margin-top: 5px;
     height: fit-content;
-    padding: 10px;
+    padding: 1%;
     border-radius: 2px;
     display: inline-flex;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .procedurestabType{
@@ -28,12 +58,15 @@
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 50px;
+
 }
 
 .procedurestabcontainer2{
     display: inline;
-    width: 45%;
+    width: 50%;
     margin-right: 5%;
+
+    
 }
 
 .procedurestabtitle{
@@ -42,30 +75,47 @@
     font-family: 'Arvo', serif;
     font-weight: 700;
     margin-bottom: 20px;
+    
 }
 
 .procedurestabinfo{
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 18px;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 30px;
+    
 }
 
 .procedurestabimg{
-    height: 330px;
-    width: 50%;
-    background-image: url("./Pictures/sam-moqadam-unsplash.jpg");
+    height: 450px;
+    width: 45%;
+    background-image: url("./Pictures/mika-baumeister-unsplash.jpg");
     background-size: cover;
     border-radius: 5px;
     min-width: none;
+    background-position: center
+    
+}
+
+.procedurestabimg1{
+    height: 500px;
+    width: 45%;
+    background-image: url("./Pictures/hadis-safari-unsplash.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    min-width: none;
+    background-position: bottom
 }
 
 @media screen and (max-width: 900px) {
     .procedurestabimg {
       width: 0%;
     }
+    .procedurestabimg1 {
+        width: 0%;
+      }
     .procedurestabcontainer2{
         display: inline;
         width: 100%;

@@ -1,5 +1,5 @@
 .contactPage{
-    background-color: rgb(255, 253, 247);
+    background-color: rgb(245, 247, 250);
     height: fit-content;
 }
 
@@ -7,14 +7,12 @@
 .contactBody{
     display: flex;
     margin-top: 70px;
-    min-height: 900px;
+    min-height: 800px;
     justify-content: center;
     width: 100%;
     /* background-image: url("./Pictures/anastasia-taioglou-unsplash.jpg"); */
     background-size: cover;
 }
-
-
 
 .contactInside{
     width: 90%;
@@ -23,7 +21,6 @@
     border-radius: 10px;
     padding: 5px;
 }
-
 
 .visit{
     display: flex;
@@ -44,7 +41,8 @@
 }
 
 .addressContainer{
-    background-color: rgba(247, 201, 133, 0.692);
+    background-color: rgb(250, 252, 255);
+    box-shadow: 0px 5px 20px 2px rgba(170, 170, 170, 0.603);
     display: flex;
     width: 100%;
     margin-bottom: 10px;
@@ -52,7 +50,7 @@
     padding-bottom: 10px;
     border-radius: 2px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     color: rgb(0, 0, 0);
     font-family: 'Arvo', sans-serif;
 }
@@ -102,6 +100,7 @@
     padding: 50px 100px;
     min-width: 450px;
     box-shadow: 0px 5px 20px 2px rgba(170, 170, 170, 0.603);
+    border-radius: 20px;
 }
 
 .messageContact{
@@ -118,7 +117,8 @@
     font-family: 'Arvo', sans-serif;
     font-size: 28px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
 .messageContainer input{
@@ -126,7 +126,7 @@
     width: 98%;
     height: 30px;
     font-size: 20px;
-    border: black line 1px;
+    border: solid black 1px;
     border-radius: 5px;
     padding: 5px;
     font-family: 'Arvo', sans-serif;
@@ -139,8 +139,28 @@
     height: 200px;
     font-size: 20px;
     border: black line 1px;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 10px;
     font-family: 'Arvo', sans-serif;
+    border: 0px;
+    background-color: rgba(209, 209, 209, 0.151);
+    
+}
+
+#e-mail{
+    border: 0px;
+    background-color: rgba(209, 209, 209, 0.151);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#name{
+    padding: 10px;
+    border-radius: 20px;
+
+    border: 0px;
+    background-color: rgba(209, 209, 209, 0.151);
+
 }
 

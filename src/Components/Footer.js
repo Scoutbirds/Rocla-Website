@@ -19,10 +19,7 @@ export default function Footer() {
                         Menu
                     </div>
                     <div>
-                    <Link to="/about"  className = "footerbutton">
-                        <div>About</div>
-                    </Link>
-                    <Link to="/procedures" className = "footerbutton">
+                    <Link to="/procedures/1" className = "footerbutton">
                         <div>Procedures</div>
                     </Link>
                     <Link to="/contact" className = "footerbutton">

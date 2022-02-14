@@ -13,10 +13,10 @@ export default function nav() {
 
             </div>
             <div className = "navButtons">
-                <Link to="/about" className="buttons">
+                {/* <Link to="/about" className="buttons">
                     <div>About</div>
-                </Link>
-                <Link to="/procedures" className="buttons">
+                </Link> */}
+                <Link to="/procedures/1" className="buttons">
                     <div>Procedures</div>
                 </Link>
                 <Link to="/contact" className="contact">
