@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './nav.css'
 
 
@@ -16,11 +17,11 @@ export default function nav() {
                 {/* <Link to="/about" className="buttons">
                     <div>About</div>
                 </Link> */}
-                <Link to="/procedures/1" className="buttons">
-                    <div>Procedures</div>
-                </Link>
+                <NavLink to="/procedures" className="buttons" activeClassName = "active" exact = {true}>
+                        <div>Procedures</div>
+                </NavLink>
                 <Link to="/contact" className="contact">
-                    <div>Contact</div>
+                    Contact
                 </Link>
             </div>
         </div>

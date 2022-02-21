@@ -33,7 +33,7 @@ export default function Footer() {
                         Contact Us
                     </div>
                     <div className = "roclaInfo">
-                        E-mail: example@gmail.com
+                        E-mail: rocla.medicalaesthetics@gmail.com
                         <br/>
                         Phone: +1 (123) 456-7891
                     </div>

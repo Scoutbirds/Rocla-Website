@@ -1,9 +1,6 @@
 import React from 'react';
 import './home.css'
-import {Link , BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import './Pictures/mika-baumeister-unsplash.jpg'
-import Procedures from './Procedures';
-import {GiLoveInjection}  from 'react-icons/gi';
+import {Link } from 'react-router-dom';
 
 
 export default function Home() {
@@ -59,6 +56,7 @@ export default function Home() {
                         <div className='thecard'>
                             <div className='thefront'>Injectables</div>
                             <div className='theback'>
+                                <div></div>
                                 <Link to="/procedures/1">
                                     <button  className = "procedureButton"><span>Learn More</span></button>
                                 </Link>
@@ -69,7 +67,7 @@ export default function Home() {
                         <div className='thecard'>
                             <div className='thefront'>PDO</div>
                             <div className='theback'>
-                                <Link to="/procedures/1">
+                                <Link to="/procedures/2">
                                         <button  className = "procedureButton"><span>Learn More</span></button>
                                 </Link>
                             </div>

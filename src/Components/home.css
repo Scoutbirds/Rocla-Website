@@ -120,7 +120,6 @@
     justify-content: center;
     width: 40%;
     margin-left: 5%;
-    background-image: url("./Pictures/sammy-williams.jpg");
     height: 250px;
     background-size: cover;
     border-radius: 5px;
@@ -193,21 +192,22 @@
       display:inline-grid;
       grid-gap: 2em 8em;
       padding: 10px;
-      width: 55%;
-      grid-template-columns: repeat(1, 250px);
+      width: 62%;
+      grid-template-columns: repeat(1, 300px);
+      justify-content: space-evenly;
 
   }
 
   @media screen and (min-width: 5em){
     .grid_Container{
-        grid-template-columns: repeat(auto-fit, minmax(5em, 250px));
+        grid-template-columns: repeat(auto-fit, minmax(5em, 300px));
     }
   }
 
   .grid_item{
       position: relative;
-      height: 250px;
-      line-height: 250px;
+      height: 300px;
+      line-height: 300px;
       text-align: center;
       border-radius: 10px;
       font-family: 'Montserrat', sans-serif;
@@ -215,6 +215,8 @@
   }
 
   .thecard{
+    border-radius: 10px;
+
       position: absolute;
       width: 100%;
       height: 100%;
@@ -227,24 +229,30 @@
   }
 
   .thefront{
+      border-radius: 10px;
       position: absolute;
       width: 100%;
       height: 100%;
-      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
       background:rgba(245, 77, 77, 0.986);
       color: #ffffff;
-      box-shadow: 00px 5px 10px 1px rgba(0, 0, 0, 0.24);
+      box-shadow: 00px 6px 10px 1px rgba(245, 77, 77, 0.342);
+      -webkit-transform: translateZ(1px);
+
+      
   }
 
   .theback{
+    border-radius: 10px;
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
-    background:rgba(55, 171, 224, 0.986);
+    -webkit-backface-visibility: hidden;
+    background:rgba(85, 196, 248, 0.986);
     color: rgb(255, 255, 255);
-    transform: rotateY(180deg);
-    box-shadow: 00px 5px 10px 1px rgba(0, 0, 0, 0.24);
+    box-shadow: 00px 6px 10px 1px rgba(85, 196, 248, 0.342);
+    -webkit-transform: translateZ(1px) rotateY(180deg);
+
 }
 
 
@@ -331,7 +339,7 @@
 }
 
 .procedureImg{
-    background-image: url("./Pictures/mika-baumeister-unsplash.jpg");
+    background-image: url("./Procedure Section/Pictures/mika-baumeister-unsplash.jpg");
     background-position: center;
     height:450px;
     background-size: cover;
@@ -353,7 +361,7 @@
 }
 
 .PDO{
-    background-image: url("./Pictures/hadis-safari-unsplash.jpg");
+    background-image: url("./Procedure Section/Pictures/hadis-safari-unsplash.jpg");
 }
 
 .procedure{

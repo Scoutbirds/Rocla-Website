@@ -16,7 +16,7 @@
 
 .roclabox{
     width:43%;
-    margin: 0px 1%
+    margin: 0px 1%;
 }
 
 .roclaTitle{
@@ -35,7 +35,8 @@
 }
 
 .box{
-    width: 23%;
+    min-width: 150px;
+    width: auto;
     margin: 0px 1%;
     justify-content: center;
 }
