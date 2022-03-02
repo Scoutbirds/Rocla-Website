@@ -1,14 +1,15 @@
 .footer{
-    height: 350px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(10, 6, 29);
+    color: white;
 }
 
 .footercontainer{
     width: 60%;
-    height: 200px;
+    height: 150px;
     display: flex;
     margin-top: 10px;
     min-width: 400px;
@@ -23,21 +24,32 @@
     font-size: calc(12px + 1vw);
     font-family: 'Arvo', serif;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     margin-bottom: 10px;
 }
 
 .roclaInfo{
-    font-size: calc(5px + 0.5vw);;
+    font-size: calc(7px + 0.6vw);;
     font-family: 'Arvo', serif;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     line-height: 25px;
+    
+}
+
+.roclaInfo p{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-email{
+    padding-right: 10px;
+    justify-content: center;
 }
 
 .box{
-    min-width: 150px;
-    width: auto;
-    margin: 0px 1%;
+    width: fit;
+    margin: 0px 3%;
     justify-content: center;
 }
 
@@ -45,21 +57,22 @@
     font-size: calc(12px + 1vw);
     font-family: 'Arvo', serif;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     margin-bottom: 10px;
 
 }
 
 .footerbutton{
+    justify-content: center;
     display: block;
-    font-size: calc(5px + 0.5vw);;
+    font-size: calc(7px + 0.6vw);;
     font-family: 'Arvo', serif;
-    color: rgb(0, 0, 0);
-    margin: 10px 0px;
-    text-decoration: underline rgb(255, 255, 255);
+    color: white;
+    margin: 15px 0px;
+    text-decoration: underline rgb(255, 255, 255);    
 }
 
 .footerbutton :hover{
-    color: rgb(0, 0, 0);
-    text-decoration: underline rgb(0, 0, 0);
+    color: rgb(247, 201, 133);;
+    text-decoration: underline rgb(255, 255, 255);
 }

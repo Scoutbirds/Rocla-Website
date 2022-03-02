@@ -13,6 +13,7 @@
     justify-content: center;
     height: 70px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .procedurenavLinks{
@@ -29,25 +30,28 @@
 
 .procedurenav button{
     border: none;
+    float: left;
     padding: 10px 50px;
     font-family: 'Arvo', serif;
     font-size: calc(12px + .8vw);
     background-color: rgb(10, 6, 29);
     color: white;
     float: left;
+    width: 100%;
+    height: 70px;
 
 
-}
-
-.procedurenav button :focus{
-    transition: 0.1s;
-    background-color: rgb(31, 27, 255);
 }
 
 .procedurenav button:hover{
     transition: 0.3s;
     cursor: pointer;
     color: rgb(247, 201, 133);
+}
+
+.procedureactive button{
+    background-color: aqua;
+    color: aqua;
 }
 
 .procedurestabcontainer{
@@ -66,6 +70,7 @@
     font-size: 80px;
     width: 100%;
     justify-content: center;
+    text-align: center;
     font-family: 'Arvo', serif;
     font-weight: 700;
     margin-top: 20px;

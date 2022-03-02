@@ -10,9 +10,10 @@ export default function Contact() {
             <div className = "contactBody">
                 <div className= "contactInside">
                     <div className = "visit">Visit our Location</div>
+
                     
                     <div className = "map">
-                        <iframe title="location" width="1200" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" 
+                        <iframe title="location" width="1200" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" 
                         src="https://maps.google.com/maps?width=862&amp;height=585&amp;hl=en&amp;q=FIU%20Miami+(Locations)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                     <div className = "addressContainer">

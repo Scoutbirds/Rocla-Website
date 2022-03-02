@@ -23,10 +23,10 @@ function App() {
             <Route path="/" exact element={<Home/>} />
             <Route path="/about" exact element={<About/>} />
             <Route path="/procedures" exact element={<Procedures/>} exact = {true}/>
-            <Route exact path="/procedures/1" exact element={<Injectibles/>}/>
+            <Route path="/procedures/1" exact element={<Injectibles/> } exact = {true}/>
             <Route exact path="/procedures/2" exact element={<ProcedurePDO/>}/>
             <Route path="/procedures/3" exact element={<FacialandPeels/>}/>
-            <Route path="/contact" exact element={<Contact/>} />
+            <Route path="/contact" exact element={<Contact/>} exact = {true}/>
           </Routes>
         </ScrollToTop>
         <Footer/>

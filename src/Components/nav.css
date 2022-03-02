@@ -57,30 +57,31 @@
     color: rgb(247, 201, 133);
 }
 
-.active{
-    color: rgb(247, 201, 133);
-
-}
 .contact{
     width: 15%;
     margin: 0% 5%;
     text-align: center;
-    color: black;
     text-decoration: none;
     padding: 10px 2%;
-    background-color: white;
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Arvo', serif;
     transition: 0.5s;
     min-width: 100px;
+    color: black;
+    background-color: white;
 
+}
+
+.active{
+    color: rgb(247, 201, 133);
 }
 
 .contact:hover{
     background-color: rgb(247, 201, 133);
     margin: 0% 4%;
     width: 17%;
+
 }
 
 

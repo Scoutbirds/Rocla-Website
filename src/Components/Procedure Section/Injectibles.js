@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+
 import './Procedures.css'
 
 
@@ -32,9 +34,9 @@ export default function Injectibles() {
         <div className = "procedurestab">
 
             <div className = "procedurenav">
-                <Link to="/procedures/1">
+                <NavLink to="/procedures/1" activeClassName = "procedureactive" exact = {true}>
                     <button>Injectibles</button>
-                </Link>
+                </NavLink>
                 <Link to="/procedures/2">
                     <button >PDO</button>
                 </Link>

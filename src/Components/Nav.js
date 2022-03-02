@@ -18,11 +18,11 @@ export default function nav() {
                     <div>About</div>
                 </Link> */}
                 <NavLink to="/procedures" className="buttons" activeClassName = "active" exact = {true}>
-                        <div>Procedures</div>
+                    <div>Procedures</div>
                 </NavLink>
-                <Link to="/contact" className="contact">
-                    Contact
-                </Link>
+                <NavLink to="/contact" className="contact" activeClassName = "active" exact = {true}>
+                    <div>Contact</div>
+                </NavLink>
             </div>
         </div>
     )

@@ -1,6 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Footer.css'
+import {MdOutlineEmail} from 'react-icons/md'
+import { IoCallOutline } from 'react-icons/io5';
+
 
 export default function Footer() {
     return (
@@ -33,9 +36,8 @@ export default function Footer() {
                         Contact Us
                     </div>
                     <div className = "roclaInfo">
-                        E-mail: rocla.medicalaesthetics@gmail.com
-                        <br/>
-                        Phone: +1 (123) 456-7891
+                        <p>< MdOutlineEmail className = "footer-email" size={20}/>rocla.medicalaesthetics@gmail.com</p>
+                        <p>< IoCallOutline className = "footer-email" size={20}/>+1 (123) 456-7891</p>
                     </div>
                 </div>
             </div>
